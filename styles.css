@@ -1,0 +1,103 @@
+/* Estilo Geral */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000; /* Preto */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Limitar a largura em telas maiores */
+}
+
+h2 {
+  color: #b22222; /* Vermelho */
+  border-bottom: 2px solid #000000; /* Preto */
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #000000; /* Preto */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Ícones do Font Awesome */
+.fab {
+  margin-left: 5px; /* Espaçamento entre texto e ícone */
+  font-size: 1.5em; /* Tamanho do ícone aumentado */
+}
+
+/* Design responsivo */
+@media (max-width: 768px) {
+  header, footer {
+      padding: 15px;
+  }
+  
+  h1 {
+      font-size: 1.5rem; /* Reduzir o tamanho da fonte no mobile */
+  }
+  
+  section {
+      margin: 10px; /* Reduzir margens em telas menores */
+      padding: 15px;
+  }
+  
+  h2 {
+      font-size: 1.25rem; /* Ajustar tamanho do título */
+  }
+  
+  p, li {
+      font-size: 1rem; /* Aumentar legibilidade em mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 1.2rem; /* Mais ajustes para telas muito pequenas */
+  }
+  
+  h2 {
+      font-size: 1.1rem;
+  }
+  
+  section {
+      padding: 10px;
+  }
+}
